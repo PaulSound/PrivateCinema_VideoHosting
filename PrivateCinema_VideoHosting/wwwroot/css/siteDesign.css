@@ -1,0 +1,93 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.video-container {
+    display: flex;
+    align-items: flex-start; /* Выравнивание элементов в верхней части */
+    gap: 20px; /* Расстояние между элементами */
+}
+
+.video-playlist {
+    width: 300px;
+    border: 1px solid #ccc; /* Добавляем границы для плейлиста */
+    padding: 20px;
+    border-radius: 5px; /* Закругляем углы для более четкого вида */
+}
+
+.video-item {
+    margin-bottom: 10px;
+    cursor: pointer;
+    display: flex;
+    padding: 5px;
+    border-radius: 5px; /* Добавляем закругление углов для элементов плейлиста */
+}
+
+.video-info {
+    margin-left: -30px;
+}
+
+video {
+    height: 777px;
+    width: 1000px;
+    border: 1px solid #ccc; /* Добавляем границы для видеоплеера */
+    border-radius: 5px; /* Закругляем углы видеоплеера */
+}
+
+
+.sidenavLeft {
+    border: 2px solid #dedede;
+    border-radius: 5px;
+    height: 80%;
+    overflow-x: scroll;
+    width: 13%;
+    min-width: 10px;
+    left: 0;
+    position: absolute;
+    top: 58px;
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 10px;
+}
+
+.group-connected {
+    font-family: Arial, sans-serif; /* Шрифт для основного текста */
+    font-size: 17px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #007bff; /* Цвет бордюра */
+    border-radius: 5px; /* Скругление углов */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+    background-color: #F0E68C;
+    color: black;
+    cursor: pointer;
+    margin: 4px 0;
+    margin-left: 4px;
+    margin-right: 4px;
+    box-sizing: border-box;
+    width: 96%;
+}

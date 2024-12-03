@@ -1,0 +1,46 @@
+﻿@model SignInModel
+
+<partial name="_Notification" />
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script src="~/cs/siteDesign.css"></script>
+    <script src="~/js/site.js"></script>
+}
+
+<form method="post">
+    <div class="container text-center my-5">
+
+        <div class="border p-3 mt-4">
+            <div class="mb-3 row p-1 ">
+                <h2 class="text-primary ">Authorization</h2>
+            </div>
+
+            <div class="mb-3 row p-1">
+                <label class="p-0">Login</label>
+                <input asp-for="Login" id="login" placeholder="Login" class="form-control" />
+                <span asp-validation-for="Login" class="text-danger"> </span>
+                <label class="p-0">Password</label>
+                <input asp-for="Password" id="password" placeholder="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+                <div class="card-footer footer-links">
+                    <div class="d-flex justify-content-center">
+                        @Html.ActionLink("Forgot your Password?", "ForgetPassword","Authorization")
+                    </div>
+                </div>
+
+            </div>
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" asp-controller="Authorization" id="LogInButton" asp-action="Login" class="btn btn-primary form-control">Log in</button>
+                </div>
+                <div class="col">
+                    <a asp-controller="Account" asp-action="CreateUser" class="btn btn-secondary form-control">Sign up</a>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</form>
+
+

@@ -1,0 +1,44 @@
+﻿
+@Html.AntiForgeryToken()
+<head>
+    <title>Video Collection</title>
+</head>
+<body>
+    <div style="display: flex; justify-content: space-between;">
+        <div class="groups-main">
+            <div id="mySidenavGroups" class="sidenavLeft">
+                <p style="text-align:center;font-weight: bold;">Your video list</p>
+                <div id="videoList" class="row text-center">
+                    <ul id="filmItemList"></ul>
+                </div>
+                <form method="post" enctype="multipart/form-data">
+                    <input id="fileSelector" type="file" name="file" accept=".mkv, .avi, .mp4" />
+                    <div>
+                        <button asp-action="UploadFilePost" id="uploadFile" class="btn btn-primary" type="submit">Upload</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Видеоплеер, занимает 2/3 экрана -->
+        <div style="flex: 2; width: 66.67%;">
+            <h2 id="chosenFilm" style="text-align:center;font-weight: bold;">None</h2>
+
+            <video controls id="video-player" style="width: 100%;">
+                <source id="videoSource" src="@Url.Content("")" type="video/mp4">
+            </video>
+        </div>
+    </div>
+</body>
+
+@* ~/PrivateCinema_VideoLibrary/0/Rayman 3.mp4 *@
+
+
+@section Scripts
+{
+    <script src="~/cs/siteDesign.css"></script>
+    <script src="~/js/site.js"></script>
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+}
+<partial name="_Notification" />

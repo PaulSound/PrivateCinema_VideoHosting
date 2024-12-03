@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0231563C-6AEF-41AD-871E-5280981E009D}|PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting.csproj|c:\\users\\user\\desktop\\interviewprojects\\privatecinema_videohosting\\privatecinema_videohosting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0231563C-6AEF-41AD-871E-5280981E009D}|PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting.csproj|solutionrelative:privatecinema_videohosting\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0231563C-6AEF-41AD-871E-5280981E009D}|PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting.csproj|c:\\users\\user\\desktop\\interviewprojects\\privatecinema_videohosting\\privatecinema_videohosting\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0231563C-6AEF-41AD-871E-5280981E009D}|PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting.csproj|solutionrelative:privatecinema_videohosting\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0231563C-6AEF-41AD-871E-5280981E009D}|PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting.csproj|c:\\users\\user\\desktop\\interviewprojects\\privatecinema_videohosting\\privatecinema_videohosting\\hubs\\cinemahub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0231563C-6AEF-41AD-871E-5280981E009D}|PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting.csproj|solutionrelative:privatecinema_videohosting\\hubs\\cinemahub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CinemaHub.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting\\Hubs\\CinemaHub.cs",
+              "RelativeDocumentMoniker": "PrivateCinema_VideoHosting\\Hubs\\CinemaHub.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting\\Hubs\\CinemaHub.cs",
+              "RelativeToolTip": "PrivateCinema_VideoHosting\\Hubs\\CinemaHub.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T11:04:55.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PrivateCinema_VideoHosting\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PrivateCinema_VideoHosting\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:16:24.837Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 107,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "5664c70c-d057-41fc-bd9d-fe3859dacec6",
+        "Display": 1,
+        "X": 15,
+        "Y": 65,
+        "Width": 1231,
+        "Height": 693,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "PrivateCinema_VideoHosting\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\user\\Desktop\\InterviewProjects\\PrivateCinema_VideoHosting\\PrivateCinema_VideoHosting\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "PrivateCinema_VideoHosting\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwCwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-26T10:48:39.405Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

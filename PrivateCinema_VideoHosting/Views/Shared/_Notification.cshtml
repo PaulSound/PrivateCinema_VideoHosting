@@ -1,0 +1,33 @@
+﻿@if (TempData["success"] != null) @* отображение сообщения в случае какой то успешной операции *@
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+    <script type="text/javascript">
+        toastr.success('@TempData["success"]');
+    </script>
+}
+@if (TempData["info"] != null) // уведомление общей информации
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.info('@TempData["info"]');
+    </script>
+}
+@if (TempData["error"] != null) @* отображение сообщения в случае ошибки *@
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.error('@TempData["error"]');
+    </script>
+}
+@if (TempData["warning"] != null) @* отображение предупреждения *@
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script type="text/javascript">
+        toastr.error('@TempData["warning"]');
+    </script>
+}
